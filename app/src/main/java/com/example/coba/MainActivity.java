@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         cibai = new String();
+        cibai.toLowerCase();
     }
 }
