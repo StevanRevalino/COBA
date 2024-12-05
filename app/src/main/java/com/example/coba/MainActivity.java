@@ -11,6 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     String cibai;
+    String babi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         cibai = new String();
         cibai.toLowerCase();
+
+        babi = new String();
     }
 }
