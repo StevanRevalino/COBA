@@ -10,7 +10,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    String p;
+    String x;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        p = new String();
+        x = new String();
     }
 }
